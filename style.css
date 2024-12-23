@@ -20,3 +20,51 @@ body {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.accordion {
+    max-width: 700px;
+    margin: auto;
+}
+
+.accordion_item {
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.accordion_title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+
+.accordion_title h3 {
+    flex: 1;
+    font-size: 20px;
+}
+
+.accordion_title i {
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.accordion_content {
+    display: none;
+}
+
+.accordion_title.active + .accordion_content {
+    display: block;
+}
+
+.accordion_content p {
+    font-size: 18px;
+}

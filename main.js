@@ -40,7 +40,7 @@ function createAccordionData() {
         <h3>${dataItem.question}</h3>
         <i class="fa-solid fa-plus"></i>
       </div>
-      <div class = "accordion-content">
+      <div class = "accordion_content">
         <p>${dataItem.answer}</p>
       </div>
     </div>
